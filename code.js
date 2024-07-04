@@ -22,9 +22,8 @@ function annotateAllMeetings() {
   };
 
   // Define domain name and ignored emails
-  const domainName = "nexla.com";
-  const ignoredEmails = ["nexla@assistant.gong.io", "c_1883q59a1dh1mjifm844hqn333bcc@resource.calendar.google.com", "c_188dno8hkhd1oiv9l11jo0n76n9s6@resource.calendar.google.com", "c_18891arfptr4ch70mgl1at0b06ree@resource.calendar.google.com"];
-
+  const domainName = "example.com"";
+  const ignoredEmails = ["example@assistant.gong.io", /* ... other ignored emails */];
 
     events.forEach(event => {
       const attendees = event.getGuestList(true);
